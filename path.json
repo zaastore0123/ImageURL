@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Catbox",
+    "endpoint": "https://catbox.moe/user/api.php",
+    "requiresToken": false
+  },
+  {
+    "name": "GitHub",
+    "endpoint": "https://api.github.com/repos/GITHUB_USERNAME/REPO_NAME/contents/uploads/",
+    "requiresToken": true,
+    "tokenPlaceholder": "YOUR_PERSONAL_ACCESS_TOKEN",
+    "branch": "main"
+  },
+  {
+    "name": "Imgur",
+    "endpoint": "https://api.imgur.com/3/image",
+    "requiresToken": true,
+    "tokenPlaceholder": "YOUR_CLIENT_ID"
+  },
+  {
+    "name": "Postimages",
+    "endpoint": "https://api.postimages.org/1/upload",
+    "requiresToken": false
+  },
+  {
+    "name": "FreeImage",
+    "endpoint": "https://freeimage.host/api/1/upload",
+    "requiresToken": true,
+    "tokenPlaceholder": "YOUR_API_KEY"
+  }
+]
